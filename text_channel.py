@@ -68,4 +68,4 @@ async def debug(ctx):
     await ctx.send(channels2users)
     await ctx.send(id2users)
 
-bot.run("NzE3NzI3MDU2OTUwOTg0Nzk2.XtehaQ.3ubxDDb2MDTK5NOOjyA2kF67ng4")
+bot.run("**********************") # your secret token
