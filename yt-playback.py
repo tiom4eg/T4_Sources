@@ -5,6 +5,10 @@ import asyncio
 
 bot = commands.Bot(command_prefix=<command_prefix>)
 
+# youtube_dl options
+YDL_OPTIONS = {'format': 'bestaudio', 'noplaylist': 'True'} #, 'preferredquality': '256', 'preferredcodec': 'mp3', 'key': 'FFmpegExtractAudio'}
+
+# Hashmap for multiguilding
 server_channel = {}
 channel_queue = {}
 
